@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+
+    <nav id="nav">
+        <ul id="navLi">
+            <li id="li"> <a href="index.html"> <img id="icon" src="icon/home_FILL0_wght400_GRAD0_opsz48.png" alt="home">
+                </a> </li>
+            <!-- <li id="li"> <a href="login.html"> <img id="icon" src="icon/login_FILL0_wght400_GRAD0_opsz48.png"
+                        alt="login"> </a> </li> -->
+            <li id="li"> <a href="setting.html"> <img id="icon" src="icon/settings_FILL0_wght400_GRAD0_opsz48.png"
+                        alt="setting"> </a></li>
+            <li id="li"> <a href="collection.html"> <img id="icon" src="icon/description_FILL0_wght400_GRAD0_opsz48.png"
+                        alt="collection"> </a></li>
+
+            <li id="theme">
+                <span id="lightMode"><img id="lightIcon" src="icon/brightness_high_FILL0_wght400_GRAD0_opsz48.png"
+                        alt="light mode"> </span>
+                <span id="darkMode"> <img id="darkIcon" src="icon/dark_mode_FILL0_wght400_GRAD0_opsz48.png"
+                        alt="daek mode"> </span>
+            </li>
+
+            <!-- <li> <img src="icon/home_FILL0_wght400_GRAD0_opsz48.png" alt="home"></li> -->
+        </ul>
+    </nav>
+  
+
+    <div id="phone">
+    <div id="phonenav">
+        <nav id="smallnav">
+            <img id="moremenuIcon" src="icon/menu_FILL0_wght400_GRAD0_opsz48.png" alt="menu">
+            <img id="lessmenuIcon" src="icon/chevron_left_FILL0_wght400_GRAD0_opsz48.png">
+        </nav>
+
+        <nav id="smallnavOption">
+            <ul id="smallnavLi">
+                <li id="smallli"> <a href="index.html" id="smallId"> Home <img id="smallicon"
+                            src="icon/home_FILL0_wght400_GRAD0_opsz48.png" alt="home"></a> </li>
+                <!-- <li id="smallli"> <a href="login.html" id="smallId"> Login <img id="smallicon"
+                            src="icon/login_FILL0_wght400_GRAD0_opsz48.png" alt="login"> </a> </li> -->
+                <li id="smallli"> <a href="setting.html" id="smallId"> Setting <img id="smallicon"
+                            src="icon/settings_FILL0_wght400_GRAD0_opsz48.png" alt="setting"> </a></li>
+                <li id="smallli"> <a href="collection.html" id="smallId"> Collection <img id="smallicon"
+                            src="icon/description_FILL0_wght400_GRAD0_opsz48.png" alt="collection"></a>
+                </li>
+               
+                <!-- <li> <img src="icon/home_FILL0_wght400_GRAD0_opsz48.png" alt="home"></li> -->
+            </ul>
+
+        </nav>
+    </div>
+
+    <div id="phoneTheme">
+        <span id="phonelightMode"><img id="phonelightIcon" src="icon/brightness_high_FILL0_wght400_GRAD0_opsz48.png"
+                alt="light mode"> </span>
+        <span id="phonedarkMode"> <img id="phonedarkIcon" src="icon/dark_mode_FILL0_wght400_GRAD0_opsz48.png"
+                alt="daek mode"> </span>
+    </div>
+   
+</div>
+<form id="getData" style="display:none;width: 1px;height: 1px;">
+    <input id="takeInput" type="text" name="task" placeholder="Add Your Report">
+    Start Time:
+    <input type="time" name="startingTime" id="startingTime">
+    End Time:
+    <input type="time" name="endingTime" id="endingTime">
+    <button type="submit" id="addBtn">Add</button>
+</form>
+    <div id="getStorage">
+       <div id="taskStoredData">Task</div>
+       <div id="timeStoredData">Starting Time</div>
+       <div id="endtimeStoredData">Ending Time</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
